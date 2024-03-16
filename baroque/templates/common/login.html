@@ -1,0 +1,113 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Barista Cafe - HTML Reservation Form</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap" rel="stylesheet">
+
+        <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+        <link href="{% static 'css/bootstrap-icons.css' %}" rel="stylesheet">
+
+        <link href="{% static 'css/vegas.min.css' %}" rel="stylesheet">
+
+        <link href="{% static 'css/tooplate-barista.css' %}" rel="stylesheet">
+    </head>
+        <body class="reservation-page">
+
+        <main>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <a class="navbar-brand d-flex align-items-center" href="index.html">
+                            <img src="{% static 'images/logo.png' %}" class="navbar-brand-image img-fluid" alt="">
+                            BaroQue
+                        </a>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-lg-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index1">Home</a>
+                                </li>
+                        </div>
+                    </div>
+                </nav>
+
+            <section class="booking-section section-padding"><br><br>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-10 col-12 mx-auto">
+                            <div class="booking-form-wrap">
+                                <div class="row">
+                                    <div class="col-lg-7 col-12 p-0">
+                                        <form class="custom-form booking-form" action="login" method="post" role="form">
+                                            {% csrf_token %}
+                                            <div class="text-center mb-4 pb-lg-2">
+                                                <em class="text-white">Fill out the form</em><br><br><br>
+
+                                                <h4 class="text-white">FILL UP FOR CHEERS</h4><br>
+
+                                            </div>
+
+                                            <div class="booking-form-body">
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-12">
+                                                        <input type="text" name="a5"  class="form-control" placeholder="Username" required><br><br>
+                                                    </div>
+
+                                                    <div class="col-lg-6 col-12">
+                                                        <input type="password" class="form-control" name="a6" placeholder="Password"  required><br><br>
+                                                    </div>
+
+                                                    <div class="col-lg-4 col-md-10 col-8 mx-auto mt-2">
+                                                        <button type="submit" class="form-control">LOGIN</button><br><br>
+                                                    </div>
+                                                    <center>
+                                                    <div class="container" >
+                                                        <span><a href="passchange"> Forgot password?</a></span>
+                                                    </div>
+                                                    </center>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                    <div class="col-lg-5 col-12 p-0">
+                                        <div class="booking-form-image-wrap">
+
+                                            <img src="{% static 'images/team/fire.gif' %}" class="booking-form-image img-fluid" alt="">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div><br><br><br><br><br><br><br><br>
+            </section>
+        </main>
+
+            <!-- JAVASCRIPT FILES -->
+            <script src="{% static 'js/jquery.min.js' %}"></script>
+            <script src="{% static 'js/bootstrap.min.js' %}"></script>
+            <script src="{% static 'js/jquery.sticky.js' %}"></script>
+            <script src="{% static 'js/vegas.min.js' %}"></script>
+            <script src="{% static 'js/custom.js' %}"></script>
+        </body>
+</html>

@@ -1,0 +1,408 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Project Cheers</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com ">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com " crossorigin>
+
+        <link href=" https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap " rel="stylesheet">
+
+        <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+        <link href="{% static 'css/bootstrap-icons.css' %}" rel="stylesheet">
+
+        <link href="{% static 'css/vegas.min.css' %}" rel="stylesheet">
+
+        <link href="{% static 'css/tooplate-barista.css' %}" rel="stylesheet">
+
+        <!-- Latest compiled and minified CSS -->
+<!--<link rel="stylesheet" href="{% static 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css' %}">-->
+
+<!-- jQuery library -->
+<!--<script src="{% static 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js' %}"></script>-->
+
+<!-- Latest compiled JavaScript -->
+<!--<script src="{% static 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js' %}"></script>-->
+
+<!--
+
+Tooplate 2137 Barista Cafe
+
+https://www.tooplate.com/view/2137-barista-cafe
+
+Bootstrap 5 HTML CSS Template
+
+-->
+    </head>
+
+    <body>
+
+            <main>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <a class="navbar-brand d-flex align-items-center" href="index.html">
+                            <img src="{% static 'images/logo.png' %}" class="navbar-brand-image img-fluid" alt="">
+                            BaroQue
+                        </a>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-lg-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="#section_1">Home</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="#section_2">About</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                 <a class="nav-link dropdown-toggle" href="#" id="navbar_Dropdown" role="button" data-toggle="dropdown" aria-haspopup=true aria-expanded="false">
+                                     Our Menu </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="drinksmenu">Beverages</a>
+                                        <a class="dropdown-item" href="foodmenu">Food </a>
+                                    </div>
+                                </li>
+
+<!--                                <li class="nav-item">-->
+<!--                                    <a class="nav-link click-scroll" href="#section_4">Reviews</a>-->
+<!--                                </li>-->
+
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="section">Feedback</a>
+                                </li>
+
+                            </ul>
+                                <div class="ms-lg-3">
+                                    <a class="btn custom-btn custom-border-btn" href="reservation.html">
+                                        Reservation
+                                        <i class="bi-arrow-up-right ms-2"></i>
+                                    </a>
+
+                                </div><br><br>
+
+                                 <div class="ms-lg-4">
+                                    <a class="btn custom-btn custom-border-btn" href="lout">
+                                        Logout
+                                        <i class="bi-arrow-down-left ms-2"></i>
+                                    </a>
+
+                                 </div>
+
+
+                        </div>
+                    </div>
+                </nav>
+
+
+                <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+
+                    <div class="container"><br><br>
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-6 col-12 mx-auto">
+                                <em class="small-text">welcome to </em><br><br>
+
+                                <h2 class="text-white mb-4 pb-lg-2">BaroQue</h2>
+
+                                <p class="text-white mb-4 pb-lg-4" >
+                                     Come & <em>Enjoy</em> with us.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="hero-slides"></div>
+                </section>
+
+
+                <section class="about-section section-padding" id="section_2">
+                    <div class="section-overlay"></div>
+                    <div class="container">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-6 col-12">
+                                <div class="ratio ratio-1x1">
+                                    <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                                        <source src="{% static 'videos/drinks24.mp4' %}" type="video/mp4">
+
+                                        Your browser does not support the video tag.
+                                    </video>
+
+                                    <div class="about-video-info d-flex flex-column">
+                                        <h4 class="mt-auto">We Started Since 2024.</h4>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto">
+                                <em class="text-white">BaroQue.co</em>
+
+                                <h2 class="text-white mb-3">Cafe KL</h2>
+
+                                <p class="text-white">The café had been in the town for as long as anyone could remember, and it had become a beloved institution among the locals.</p>
+
+                                <p class="text-white">The café was run by a friendly and hospitable couple, Mr. and Mrs. Johnson. Barista Cafe is free Bootstrap 5 HTML layout provided by <a rel="nofollow" href="https://www.tooplate.com" target="_blank">Tooplate</a>.</p>
+
+<!--                                <a href="#barista-team" class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Meet Baristas</a>-->
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+<!--                <section class="reviews-section section-padding section-bg" id="section_4">-->
+<!--                    <div class="container"><br><br>-->
+<!--                        <div class="row justify-content-center">-->
+
+<!--                            <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">-->
+<!--                                <em class="text-white">Reviews by Customers</em>-->
+
+<!--                                <h2 class="text-white">Testimonials</h2>-->
+<!--                            </div>-->
+
+<!--                            <div class="timeline">-->
+<!--                                <div class="timeline-container timeline-container-left">-->
+<!--                                    <div class="timeline-content">-->
+<!--                                        <div class="reviews-block">-->
+<!--                                            <div class="reviews-block-image-wrap d-flex align-items-center">-->
+<!--&lt;!&ndash;                                                <img src="{% static 'images/reviews/young-woman-with-round-glasses-yellow-sweater.jpg' %}" class="reviews-block-image img-fluid" alt="">&ndash;&gt;-->
+
+<!--                                                <div class="">-->
+<!--                                                    <h6 class="text-white mb-0">Sandra</h6>-->
+<!--                                                    <em class="text-white"> Customer</em>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+
+<!--                                            <div class="reviews-block-info">-->
+<!--                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
+
+<!--&lt;!&ndash;                                                <div class="d-flex border-top pt-3 mt-4">&ndash;&gt;-->
+<!--&lt;!&ndash;                                                    <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                                                    <div class="reviews-group ms-auto">&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        <i class="bi-star-fill"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        <i class="bi-star-fill"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        <i class="bi-star-fill"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        <i class="bi-star-fill"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        <i class="bi-star"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                </div>&ndash;&gt;-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+
+<!--                                <div class="timeline-container timeline-container-right">-->
+<!--                                    <div class="timeline-content">-->
+<!--                                        <div class="reviews-block">-->
+<!--                                            <div class="reviews-block-image-wrap d-flex align-items-center">-->
+<!--&lt;!&ndash;                                                <img src="{% static 'images/reviews/senior-man-white-sweater-eyeglasses.jpg' %}" class="reviews-block-image img-fluid" alt="">&ndash;&gt;-->
+
+<!--                                                <div class="">-->
+<!--                                                    <h6 class="text-white mb-0">Don</h6>-->
+<!--                                                    <em class="text-white"> Customer</em>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+
+<!--                                            <div class="reviews-block-info">-->
+<!--                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
+
+<!--&lt;!&ndash;                                                <div class="d-flex border-top pt-3 mt-4">&ndash;&gt;-->
+<!--&lt;!&ndash;                                                    <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                                                    <div class="reviews-group ms-auto">&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        <i class="bi-star-fill"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        <i class="bi-star-fill"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        <i class="bi-star-fill"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        <i class="bi-star-fill"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        <i class="bi-star"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                </div>&ndash;&gt;-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+
+<!--                                <div class="timeline-container timeline-container-left">-->
+<!--                                    <div class="timeline-content">-->
+<!--                                        <div class="reviews-block">-->
+<!--                                            <div class="reviews-block-image-wrap d-flex align-items-center">-->
+<!--&lt;!&ndash;                                                <img src="{% static 'images/reviews/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg' %}" class="reviews-block-image img-fluid" alt="">&ndash;&gt;-->
+
+<!--                                                <div class="">-->
+<!--                                                    <h6 class="text-white mb-0">Olivia</h6>-->
+<!--                                                    <em class="text-white"> Customer</em>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+
+<!--                                            <div class="reviews-block-info">-->
+<!--                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
+
+<!--&lt;!&ndash;                                                <div class="d-flex border-top pt-3 mt-4">&ndash;&gt;-->
+<!--&lt;!&ndash;                                                    <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                                                    <div class="reviews-group ms-auto">&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        <i class="bi-star-fill"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        <i class="bi-star-fill"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        <i class="bi-star-fill"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        <i class="bi-star-fill"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                        <i class="bi-star"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                </div>&ndash;&gt;-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </section>-->
+
+
+                <section class="contact-section section-padding" id="section">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-lg-12 col-12">
+                                <em class="text-white">Say about us</em>
+                                <h2 class="text-white mb-4 pb-lg-2">Feedback</h2>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <form action="ufeed" method="post" class="custom-form contact-form" role="form">
+                                    {% csrf_token %}
+
+                                <div class="row">
+
+                                    <div class="col-lg-6 col-12">
+                                        <label  class="form-label">Name <sup class="text-danger">*</sup></label>
+
+                                        <input type="text" name="name" class="form-control" placeholder="Jackson" required="">
+                                    </div>
+
+                                    <div class="col-lg-6 col-12">
+                                        <label class="form-label">Email Address</label>
+
+                                        <input type="email" name="email" class="form-control" placeholder="Jack@gmail.com" required="">
+                                    </div>
+
+                                    <div class="col-12">
+
+                                        <textarea name="message" rows="4" class="form-control" id="message" placeholder="Comments" required=""></textarea>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-5 col-12 mx-auto mt-3">
+                                    <button type="submit" class="form-control">Submit</button>
+                                </div>
+                            </form>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <footer class="site-footer">
+                    <div class="container">
+                        <div class="row">
+                        {% for i in r %}
+                            <div class="col-lg-4 col-12 me-auto">
+                                <em class="text-white d-block mb-4">Where to find us?</em>
+
+                                <strong class="text-white">
+                                    <i class="bi-geo-alt me-2"></i>
+                                    {{i.address}}
+                                </strong>
+
+                                <ul class="social-icon mt-4">
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-facebook">
+                                        </a>
+                                    </li>
+
+                                    <li class="social-icon-item">
+                                        <a href="{% static 'https://x.com/minthu' %}" target="_new" class="social-icon-link bi-twitter">
+                                        </a>
+                                    </li>
+
+                                    <li class="social-icon-item">
+                                        <a href="{% static '#' %}" class="social-icon-link bi-whatsapp">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        {% endfor %}
+
+                        {% for i in r1 %}
+                            <div class="col-lg-3 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0">
+                                <em class="text-white d-block mb-4">Contact</em>
+
+                                <p class="d-flex mb-1">
+                                    <strong class="me-2">Phone:</strong>
+                                    <a href="{% static 'tel: 305-240-9671' %}" class="site-footer-link">
+                                        {{i.phone}}
+                                    </a>
+                                </p>
+
+                                <p class="d-flex">
+                                    <strong class="me-2">Email:</strong>
+
+                                    <a href="{% static 'mailto:info@yourgmail.com' %}" class="site-footer-link">
+                                        {{i.email}}
+                                    </a>
+                                </p>
+                            </div>
+                        {% endfor %}
+
+                            <div class="col-lg-5 col-12">
+                                <em class="text-white d-block mb-4">Opening Hours.</em>
+
+                                <ul class="opening-hours-list">
+                                    <li class="d-flex text-white">
+                                        Monday - Sunday<br>
+                                        <span class="underline"></span>
+                                    </li><br>
+                                    <div>
+                                        <strong>10:00 - 23:00</strong>
+                                    </div>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-8 col-12 mt-4">
+                                <p class="copyright-text mb-0">Copyright © cheers </p>
+                            </div>
+                    </div>
+                    </div>
+                </footer>
+            </main>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="{% static 'js/jquery.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'js/jquery.sticky.js' %}"></script>
+        <script src="{% static 'js/click-scroll.js' %}"></script>
+        <script src="{% static 'js/vegas.min.js' %}"></script>
+        <script src="{% static 'js/custom.js' %}"></script>
+
+    </body>
+</html>
